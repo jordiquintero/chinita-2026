@@ -1,0 +1,39 @@
+﻿Código;Grupo;Material;Especificación;Cantidad de diseño;Unidad;Reposición;A comprar;Uso;Capas;Pruebas (26–28 oct);Se usa desde;Cuándo comprar
+M01;Telas;Terciopelo esmeralda profundo;"Rayón o viscosa (mejor caída) o poliéster de buena calidad; ≈ #0F6652; ancho 1,40–1,50 m";4,2;m;;4,2;"Cuerpo 2,1 m; vueltas, nesgas y retazos de muestra 2,1 m";4 Vueltas de los bordes, 6 Cuerpo de terciopelo;1, 3, 4, 8;27 oct (F05);"Primero tres muestras de 30 cm para la prueba 4; el largo completo, en cuanto se elija el tono."
+M02;Telas;Raso o tafetán esmeralda hondo;Poliéster, ≈ #063A31;2,3;m;;2,3;"Forro: entero con tela de 1,50 m; con 1,40 m, dos mitades encontradas en el mismo largo";3 Forro;2, 8;11 nov (F17);Una muestra para la prueba 2 (control) y la 8.
+M03;Telas;Tafetán esmeralda hondo;Poliéster;0,7;m;;0,7;Protector de roce (pieza de 65 × 95 cm al través);2 Protector de roce;;11 nov (F17);
+M04;DTF;Raso duquesa marfil;Poliéster, ≈ #F3EBDD;0,6;m;;0,6;Base de las 36 piezas DTF (más repuestos);8 Apliques: cruz y paneles DTF;2;26 oct (F04);
+M05;DTF;Impresión DTF;Pliego de 56 × 98 cm (película de 60 cm), PNG a 300 ppp, polvo antimigración, capa blanca al 50 %;2;pliegos;;2;Uno de producción y una tira de prueba (prueba 2);8 Apliques: cruz y paneles DTF;2;26 oct (F04);La tira de prueba ya. El pliego de producción solo después de medir la réplica y aprobar la prueba 2.
+M06;DTF;Entretela termoadhesiva fina;Tejida o no tejida, de baja temperatura;0,6;m;;0,6;Estabiliza el raso antes de prensar;8 Apliques: cruz y paneles DTF;2;26 oct (F04);
+M07;DTF;Fieltro fino marfil;1–2 mm;0,3;m²;;0,3;Relleno de azucenas y crestas;8 Apliques: cruz y paneles DTF;2;26 oct (F04);
+M08;Soportes;Organza de algodón o lino ligero;Ancho 1,50 m;3;m;;3;"Bajo todo lo bordado; doble bajo el pavé";5 Organza de soporte y refuerzo del pie;1;27 oct (F05);
+M09;Soportes;Cinta de algodón de 2 cm;Tejida;1,6;m;;1,6;Refuerzo del pie;5 Organza de soporte y refuerzo del pie;;27 oct (F05);
+M10;Soportes;Lienzo de algodón;Tejido firme;0,6;m;;0,6;Soporte para bordar la cruz aparte;8 Apliques: cruz y paneles DTF;;26 oct (F04);
+M11;Soportes;Cartulina o fieltro fino para realce;Amarilla u ocre, para que no se transparente;0,12;m²;;0,12;Tres capas del realce de la cruz;8 Apliques: cruz y paneles DTF;;26 oct (F04);
+M12;Soportes;Papel de seda;Pliegos grandes, para unir;6;m;;6;Dibujo 1:1 del emblema, las azucenas, el horizonte y el degradado;;;21 oct (F01);Ya: hace falta para el dibujo 1:1.
+M13;Hilos y cordones;Cordón torcido de oro de 2 mm;Metálico sintético;32;m;;32;Perfil de la cruz y del ancla, amarra, tallos, hojas, olivo, horizonte, Basílica, Ávila y rayos finos;7 Bordado directo, 8 Apliques: cruz y paneles DTF, 9 Ancla y amarra;1;26 oct (F04);
+M14;Hilos y cordones;Cordón de oro de 4 mm;Metálico sintético;6,5;m;;6,5;Contorno de los lados y el pie;11 Orla;;10 nov (F15);
+M15;Hilos y cordones;Cordón de plata de 2 mm;Metálico sintético;6;m;;6;Perfil de las crestas;8 Apliques: cruz y paneles DTF;2;26 oct (F04);
+M16;Hilos y cordones;Cordón marfil de 2 mm;Satinado;4;m;;4;Perfil de las azucenas y los capullos;8 Apliques: cruz y paneles DTF;2;26 oct (F04);
+M17;Hilos y cordones;Cordón de oro viejo de 3 mm;Metálico sintético, mate;1,5;m;;1,5;Ribete del arranque;7 Bordado directo;;30 oct (F07);
+M18;Hilos y cordones;Cordón champán de 2 mm;Metálico sintético;1,5;m;;1,5;Ribete del arranque;7 Bordado directo;;30 oct (F07);
+M19;Hilos y cordones;Hilo para hilos tendidos e hilo plano tipo hojilla;Oro viejo y oro, lámina sobre alma de poliéster;5;conos;;5;Cruz, rayos, sol, camino de luz y Basílica;7 Bordado directo, 8 Apliques: cruz y paneles DTF;7;26 oct (F04);
+M20;Hilos y cordones;Hilo metalizado azul Capri;Para couching;2;conos;;2;Líneas de las olas;7 Bordado directo;;30 oct (F07);
+M21;Hilos y cordones;Hilo metalizado aguamarina;Para couching;1;cono;;1;Ondas del Lago;7 Bordado directo;;30 oct (F07);
+M22;Hilos y cordones;Canutillo de oro liso y rizado;Metálico;40;g;;40;Cruz y estambres;8 Apliques: cruz y paneles DTF;;26 oct (F04);
+M23;Hilos y cordones;Hilos de fijación y de pedrería;"Poliéster oro, marfil y verde; hilo encerado tipo Nymo";1;surtido;;1;Fijar cordones, apliques, piedras y perlas;7 Bordado directo, 9 Ancla y amarra, 10 Degradado de pedrería;1, 3;30 oct (F07);
+S12;Piedras;Rosa montada SS12;Champán 37, cristal 15;52;u;15 %;60;Tramos 4 y 5;10 Degradado de pedrería;1, 3, 7;6 nov (F13);
+S16;Piedras;Rosa montada SS16;Champán 295, aguamarina 40, cristal 35;370;u;15 %;426;Ancla y tramos 3 y 4;9 Ancla y amarra, 10 Degradado de pedrería;1, 3, 7;3 nov (F09);
+S20;Piedras;Rosa montada SS20;Aguamarina 130, cristal 90, champán 60, Capri 40;320;u;15 %;368;Uñas del ancla y tramos 2 y 3;9 Ancla y amarra, 10 Degradado de pedrería;1, 3, 7;3 nov (F09);
+S30;Piedras;Rosa montada SS30;Capri 150, aguamarina 110, cristal 80;340;u;15 %;391;Tramos 1 y 2;10 Degradado de pedrería;1, 3, 7;6 nov (F13);
+S40;Piedras;Rosa montada SS40;Capri 100, aguamarina 60;160;u;15 %;184;Pavé;10 Degradado de pedrería;1, 3, 7;6 nov (F13);
+C08;Piedras;Chatón de 8 mm en garras;Aguamarina 6, cristal 6, champán 2;14;u;15 %;17;Puntas de las uñas y tramo 2;9 Ancla y amarra, 10 Degradado de pedrería;1, 3, 7;3 nov (F09);
+C10;Piedras;Chatón de 10 mm en garras;Capri 26, aguamarina 18, champán 1;45;u;15 %;52;Punta del ancla y pavé;9 Ancla y amarra, 10 Degradado de pedrería;1, 3, 7;3 nov (F09);
+O13;Piedras;Óvalo facetado o cabujón de 13 × 18 mm en garras;Capri 14, aguamarina 8;22;u;15 %;26;Pavé;10 Degradado de pedrería;1, 3, 7;6 nov (F13);
+P08;Perlas;Perla de cristal crema de 8 mm;Nacarada, con taladro;55;u;15 %;64;Amarra 1, pavé 36, orla del pie 18;9 Ancla y amarra, 10 Degradado de pedrería, 11 Orla;1, 3, 7;3 nov (F09);
+P06;Perlas;Perla de cristal crema de 6 mm;Nacarada, con taladro;198;u;15 %;228;Amarra 10, olivo 12, tramo 2 40, pavé 110, orla de los lados 26;9 Ancla y amarra, 10 Degradado de pedrería, 11 Orla;1, 3, 7;3 nov (F09);
+P04;Perlas;Perla de cristal crema de 4 mm;Nacarada, con taladro;262;u;15 %;302;Ancla 130, tramo 5 12, tramo 4 20, tramo 3 30, tramo 2 70;9 Ancla y amarra, 10 Degradado de pedrería;1, 3, 7;3 nov (F09);
+M28;Galones;Galón de volutas barrocas doradas de 6–8 cm;Si no hay volutas, encaje dorado que imite el oleaje;6;m;;6;Orla de los lados y el pie;11 Orla;;10 nov (F15);
+M29;Galones;Galón de oro de 1,5 cm;Liso o de trencilla;5;m;;5;Vueltas de los bordes;4 Vueltas de los bordes;8;11 nov (F16);
+M30;Sujeción;Cinta de algodón de 25 mm;Tejida, firme;4;m;;4;Arranque y tiras de sujeción;1 Sujeción;;11 nov (F17);
+M31;Sujeción;Velcro cosible de 25 mm;Macho y hembra;1;m;;1;Cierre de las tiras;1 Sujeción;;11 nov (F17);
