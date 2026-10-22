@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=Nunito+Sans:wght@400;600;700;800&display=swap">
 <style>
-/* Portada de carpeta de taller: una columna con la imagen del manto y tres entradas (3D, manual, materiales). */
+/* Portada de carpeta de taller: una columna con la imagen del manto y cuatro entradas (presentación, 3D, manual, materiales). */
 :root {
   --esmeralda-950: #042a20; --esmeralda-900: #06372a; --esmeralda-700: #0b5a44; --esmeralda-500: #0f7a5c;
   --oro: #b8923a; --oro-claro: #e2c97e; --marfil: #f6f0e2; --marfil-2: #ece3cd; --tinta: #14211c; --tinta-2: #3c4a44;
@@ -62,7 +62,7 @@ main { max-width: 1080px; margin: 0 auto; padding-block: 40px 56px;
 h2 { font-family: var(--serif); font-weight: 600; font-size: 1.9rem; color: var(--acento); text-wrap: balance; }
 h2::after { content: ""; display: block; width: 2.2em; height: 1px; background: var(--oro); margin-top: 8px; }
 
-.entradas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-top: 20px; }
+.entradas { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 20px; }
 .entrada { background: var(--superficie); border: 1px solid var(--linea); padding: 22px 22px 20px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .entrada .num { font-size: .72rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; color: var(--oro-tx); }
 .entrada h3 { font-family: var(--serif); font-weight: 600; font-size: 1.45rem; line-height: 1.15; }
@@ -122,6 +122,13 @@ footer div { max-width: 1080px; margin: 0 auto; padding-block: 20px 28px; font-s
   <section aria-labelledby="t-material">
     <h2 id="t-material">Material de taller</h2>
     <div class="entradas">
+      <article class="entrada">
+        <span class="num">Para presentar</span>
+        <h3>Presentación del manto</h3>
+        <p>El nombre y su sentido, la intención, el color y el significado de cada símbolo, con la dedicatoria y un texto listo para leer en voz alta o publicar.</p>
+        <ul><li>11 páginas tamaño carta</li><li>Dedicatoria, símbolos, presentación y oración</li></ul>
+        <div class="acciones"><a class="boton" href="presentacion/presentacion-ancla-del-alma.pdf">Abrir la presentación</a><span class="peso">PDF · 4,6 MB</span></div>
+      </article>
       <article class="entrada">
         <span class="num">Para ver</span>
         <h3>Visor 3D</h3>
