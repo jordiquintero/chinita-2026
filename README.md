@@ -14,3 +14,9 @@ Se ve en línea en **https://jordiquintero.github.io/chinita-2026/**.
 | `materiales/compras.csv` | La hoja de compras en CSV |
 
 Las cotas son para un manto de 200 cm de alto y 150 cm al pie. No se corta tela ni se imprime el DTF hasta medir la réplica.
+
+## Actualización 23-oct-2026
+
+- `dtf-rev2/`: galería de 11 PNG, agua 11171×4794 px (aprox. 170×73 cm a 167 ppp), olas de dos filas y dos ZIP de descarga.
+- `visor-3d/interaccion.js` y `.css`: recorrido y búsqueda por capas, enfoque, giro manual activable, captura, enlaces compartibles, teclado y panel móvil que reserva espacio a la escena.
+- El visor conserva las geometrías del esquema técnico anterior. La galería DTF contiene los artes vigentes; no se ha cambiado el patrón por medidas pendientes.
