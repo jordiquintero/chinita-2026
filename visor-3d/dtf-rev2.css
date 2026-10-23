@@ -1,0 +1,6 @@
+.rev2-switch{display:flex;gap:6px;padding:8px 12px;background:var(--fondo);border-bottom:1px solid var(--linea);flex-shrink:0}.rev2-switch button{flex:1;min-height:38px}.rev2-panel{display:none}.rev2-activo .rev2-panel{display:block}.rev2-panel label{display:block;font-size:.85rem;font-weight:600;margin:8px 0}.rev2-panel select{width:100%;min-height:42px;font:inherit;color:var(--texto);background:var(--fondo);border:1px solid var(--linea);border-radius:8px;padding:7px}.rev2-panel .fila{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.rev2-panel .mini{min-height:38px}.rev2-checks label{display:flex;align-items:center;gap:8px;min-height:30px}.rev2-checks input{width:18px;height:18px;accent-color:var(--oro)}
+.rev2-activo #panel-capas>.seccion:not(.rev2-panel):not(.explorar),.rev2-activo .explorar label,.rev2-activo #buscar-capa,.rev2-activo #recorrido-capa,.rev2-activo .explorar .fila:has(#capa-prev),.rev2-activo #etiquetas{display:none!important}
+.rev2-activo .explorar h2 small{display:none}.rev2-activo #explorar-estado{display:none}
+@media(max-width:899px){.panel{--peek:124px}.rev2-switch{padding:5px 10px}.rev2-switch button{font-size:.8rem;min-height:34px}.panel.abierto{height:min(48dvh,410px)}}
+
+.rev2-legacy{margin:0;padding:7px 12px;border-bottom:1px solid var(--linea);flex-shrink:0}.rev2-activo .rev2-legacy{display:none}

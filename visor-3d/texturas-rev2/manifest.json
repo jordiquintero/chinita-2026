@@ -1,0 +1,211 @@
+[
+  {
+    "id": "EMB-cruz-ancla-rev2",
+    "src": "texturas-rev2/EMB-cruz-ancla-rev2.webp",
+    "original": "../dtf-rev2/01-emblema/EMB-cruz-ancla-rev2.png",
+    "crop": [
+      60,
+      32,
+      2275,
+      3438
+    ],
+    "px": [
+      2215,
+      3406
+    ],
+    "preview": [
+      1332,
+      2048
+    ]
+  },
+  {
+    "id": "LIR-ramo-derecho-rev2",
+    "src": "texturas-rev2/LIR-ramo-derecho-rev2.webp",
+    "original": "../dtf-rev2/02-ramos/LIR-ramo-derecho-rev2.png",
+    "crop": [
+      234,
+      23,
+      1916,
+      3822
+    ],
+    "px": [
+      1682,
+      3799
+    ],
+    "preview": [
+      907,
+      2048
+    ]
+  },
+  {
+    "id": "LIR-ramo-izquierdo-rev2",
+    "src": "texturas-rev2/LIR-ramo-izquierdo-rev2.webp",
+    "original": "../dtf-rev2/02-ramos/LIR-ramo-izquierdo-rev2.png",
+    "crop": [
+      244,
+      23,
+      1926,
+      3822
+    ],
+    "px": [
+      1682,
+      3799
+    ],
+    "preview": [
+      907,
+      2048
+    ]
+  },
+  {
+    "id": "HOR-horizonte-rev2",
+    "src": "texturas-rev2/HOR-horizonte-rev2.webp",
+    "original": "../dtf-rev2/03-horizonte/HOR-horizonte-rev2.png",
+    "crop": [
+      31,
+      502,
+      3813,
+      1144
+    ],
+    "px": [
+      3782,
+      642
+    ],
+    "preview": [
+      2048,
+      348
+    ]
+  },
+  {
+    "id": "AGUA-GRANDE-170x73cm-aprox-167ppp",
+    "src": "texturas-rev2/AGUA-GRANDE-170x73cm-aprox-167ppp.webp",
+    "original": "../dtf-rev2/04-agua/AGUA-GRANDE-170x73cm-aprox-167ppp.png",
+    "crop": [
+      0,
+      0,
+      11171,
+      4794
+    ],
+    "px": [
+      11171,
+      4794
+    ],
+    "preview": [
+      2048,
+      879
+    ]
+  },
+  {
+    "id": "OLA-olas-dos-filas-rev2",
+    "src": "texturas-rev2/OLA-olas-dos-filas-rev2.webp",
+    "original": "../dtf-rev2/05-olas/OLA-olas-dos-filas-rev2.png",
+    "crop": [
+      5,
+      399,
+      3834,
+      1261
+    ],
+    "px": [
+      3829,
+      862
+    ],
+    "preview": [
+      2048,
+      461
+    ]
+  },
+  {
+    "id": "ORL-lateral-der-rev2",
+    "src": "texturas-rev2/ORL-lateral-der-rev2.webp",
+    "original": "../dtf-rev2/06-orlas/ORL-lateral-der-rev2.png",
+    "crop": [
+      837,
+      0,
+      1338,
+      3840
+    ],
+    "px": [
+      501,
+      3840
+    ],
+    "preview": [
+      267,
+      2048
+    ]
+  },
+  {
+    "id": "ORL-lateral-izq-rev2",
+    "src": "texturas-rev2/ORL-lateral-izq-rev2.webp",
+    "original": "../dtf-rev2/06-orlas/ORL-lateral-izq-rev2.png",
+    "crop": [
+      822,
+      0,
+      1323,
+      3840
+    ],
+    "px": [
+      501,
+      3840
+    ],
+    "preview": [
+      267,
+      2048
+    ]
+  },
+  {
+    "id": "ORL-pie-rev2",
+    "src": "texturas-rev2/ORL-pie-rev2.webp",
+    "original": "../dtf-rev2/06-orlas/ORL-pie-rev2.png",
+    "crop": [
+      13,
+      366,
+      3827,
+      1220
+    ],
+    "px": [
+      3814,
+      854
+    ],
+    "preview": [
+      2048,
+      459
+    ]
+  },
+  {
+    "id": "AMR-amarra-rev2",
+    "src": "texturas-rev2/AMR-amarra-rev2.webp",
+    "original": "../dtf-rev2/07-amarra-y-destellos/AMR-amarra-rev2.png",
+    "crop": [
+      24,
+      24,
+      147,
+      2836
+    ],
+    "px": [
+      123,
+      2812
+    ],
+    "preview": [
+      90,
+      2048
+    ]
+  },
+  {
+    "id": "DST-destellos-rev2",
+    "src": "texturas-rev2/DST-destellos-rev2.webp",
+    "original": "../dtf-rev2/07-amarra-y-destellos/DST-destellos-rev2.png",
+    "crop": [
+      24,
+      24,
+      1892,
+      2676
+    ],
+    "px": [
+      1868,
+      2652
+    ],
+    "preview": [
+      1443,
+      2048
+    ]
+  }
+]

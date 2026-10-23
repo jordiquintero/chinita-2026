@@ -237,7 +237,7 @@ ul.puntos li{margin:3px 0}
   <main class="cuerpo">
     <section class="escena" id="escena" aria-label="Escena 3D del manto">
       <canvas id="lienzo" tabindex="0" role="img"
-        aria-label="Modelo 3D del manto Ancla del Alma: un trapecio de terciopelo esmeralda con una cruz y un ancla de oro, azucenas, el horizonte y un degradado de piedras. Arrastre para girar, use la rueda o dos dedos para acercar. Los botones de vista y el panel de capas ofrecen las mismas funciones."></canvas>
+        aria-label="Modelo 3D del manto Ancla del Alma: un trapecio de terciopelo esmeralda con una cruz y un ancla de oro, azucenas, el horizonte y agua con dos filas de olas. Arrastre para girar, use la rueda o dos dedos para acercar. Los botones de vista y el panel de capas ofrecen las mismas funciones."></canvas>
       <div id="etiquetas" class="etiquetas" aria-hidden="true"></div>
 
       <div class="barra-vistas" role="toolbar" aria-label="Vistas de la cámara">
@@ -2263,6 +2263,7 @@ let hoverPendiente = null, hoverRaf = 0;
 
 // ---- render -------------------------------------------------------------------------------------
 function render() {
+  window.__dtfRev2?.sync();
   ordenar();
   renderer.render(scene, camera);
   actualizarEtiquetas();
@@ -2997,6 +2998,7 @@ function crearEtiquetas() {
 // ---- puntero ------------------------------------------------------------------------------------------------------
 function focoDe(info) {
   if (!info) return null;
+  if (info.rev2) return {rev2: info.rev2, capa: info.capa};
   if (info.tipo === 'pieza') return { capa: 'apliques', pieza: info.pieza, lado: info.lado };
   if (info.tipo === 'piedras') return { inst: { zona: info.zona, i: info.instanceId, clase: info.clase } };
   if (info.tipo === 'patron') return { patron: info.patron };
@@ -3103,7 +3105,7 @@ ui.tarjeta = function (f, fijo) {
   if (llave === tarjetaKey) return;
   tarjetaKey = llave;
   if (!f) { tarjetaEl.hidden = true; tarjetaEl.replaceChildren(); return; }
-  const cuerpo = f.pieza ? tarjetaPieza(f) : f.inst ? tarjetaPiedra(f) : f.zona ? tarjetaZona(f) : f.patron ? tarjetaPatron(f) : f.capa ? tarjetaCapa(CAPA[f.capa]) : null;
+  const cuerpo = f.rev2 ? window.__dtfRev2?.card(f.rev2) : f.pieza ? tarjetaPieza(f) : f.inst ? tarjetaPiedra(f) : f.zona ? tarjetaZona(f) : f.patron ? tarjetaPatron(f) : f.capa ? tarjetaCapa(CAPA[f.capa]) : null;
   if (!cuerpo) { tarjetaEl.hidden = true; return; }
   tarjetaEl.replaceChildren(
     h('button', { class: 'cerrar', type: 'button', 'aria-label': 'Cerrar la tarjeta', onclick: cerrarTarjeta }, '×'),
@@ -3559,6 +3561,7 @@ async function arrancar() {
   requestAnimationFrame(bucle);
   window.__visor = {
     S, D, THREE, camera, controls, renderer, scene, capasObj, PZ, PI, MESA, ui,
+    pickables, gPiezas, texDe, mapaAlfa, planoCorte,
     irAModo, irAFase, irAVista, irAVistaUI, fijarExplode, entrarMesa, salirMesa, aplicarEstado, refrescarPiedras, elegirDesdeLista, alElegir, setFoco, calcularMedidas,
     contarPiedras, cuadreFicha, limiteY, render, pedir, abrirHoja, alternarTema,
     listo: true,
@@ -3573,6 +3576,8 @@ arrancar().catch(err => {
 
 </script>
 <link rel="stylesheet" href="interaccion.css">
-<script src="interaccion.js" defer></script>
+<script src="interaccion.js?v=rev2" defer></script>
+<link rel="stylesheet" href="dtf-rev2.css">
+<script src="dtf-rev2.js" defer></script>
 </body>
 </html>
